@@ -1,0 +1,6 @@
+{
+  "name": "AURA Modern Goods | Full-Stack Store & REST API",
+  "description": "Full-stack e-commerce application with customer storefront, shopping bag, wishlist, order history, ratings, and real-time admin management with relational database API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

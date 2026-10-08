@@ -1,0 +1,445 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin Aura",
+      "email": "admin@aura.com",
+      "password_hash": "admin123",
+      "role": "admin",
+      "address": "100 Studio Way",
+      "city": "Stockholm",
+      "postal_code": "111 22",
+      "phone": "+46 8 123 4567",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Elena Vance",
+      "email": "customer@aura.com",
+      "password_hash": "customer123",
+      "role": "customer",
+      "address": "44 Kronprinsens Alle",
+      "city": "Copenhagen",
+      "postal_code": "1260",
+      "phone": "+45 32 45 67 89",
+      "created_at": "2026-01-05T00:00:00.000Z",
+      "updated_at": "2026-01-05T00:00:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Architectural Living",
+      "slug": "architectural-living",
+      "description": "Sculptural furniture, crafted oak seating, and minimalist interior objects.",
+      "image_url": "/src/assets/images/hero_curated_collection_1791425516611.jpg",
+      "created_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Audio & Acoustics",
+      "slug": "audio-acoustics",
+      "description": "Precision studio sound, acoustic monitors, and beryllium transducer headphones.",
+      "image_url": "/src/assets/images/product_audio_headphones_1791425532484.jpg",
+      "created_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Sculptural Ceramics",
+      "slug": "sculptural-ceramics",
+      "description": "Artisanal stoneware vessels, unglazed fluted vases, and organic table forms.",
+      "image_url": "/src/assets/images/product_ceramic_vase_1791425554927.jpg",
+      "created_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Horology & Objects",
+      "slug": "horology-objects",
+      "description": "Grade-5 titanium mechanical timepieces and everyday precision instruments.",
+      "image_url": "/src/assets/images/product_automatic_watch_1791425566046.jpg",
+      "created_at": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category_id": 2,
+      "name": "Aura Studio Pro Wireless Headphones",
+      "slug": "aura-studio-pro-headphones",
+      "description": "Bespoke 40mm beryllium drivers enclosed in an acoustic titanium chassis. Featuring active hybrid noise cancellation, 38-hour battery longevity, Bluetooth 5.3 with high-resolution LDAC codec support, and breathable lambskin memory foam ear cushions.",
+      "price": 380,
+      "compare_at_price": 420,
+      "sku": "AUR-AUD-01",
+      "stock_quantity": 21,
+      "image_url": "/src/assets/images/product_audio_headphones_1791425532484.jpg",
+      "gallery_urls": [
+        "/src/assets/images/product_audio_headphones_1791425532484.jpg"
+      ],
+      "featured": true,
+      "is_active": true,
+      "created_at": "2026-01-10T00:00:00.000Z",
+      "updated_at": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "name": "Koto Boucle Sculptural Lounge Chair",
+      "slug": "koto-boucle-lounge-chair",
+      "description": "Hand-crafted from solid FSC-certified European white oak with soft sculpted contours. Upholstered in tactile high-durability cream wool-blend boucle. Engineered with generous lumbar support for architectural reading sanctuaries.",
+      "price": 1450,
+      "compare_at_price": 1600,
+      "sku": "AUR-FUR-02",
+      "stock_quantity": 7,
+      "image_url": "/src/assets/images/product_lounge_chair_1791425543194.jpg",
+      "gallery_urls": [
+        "/src/assets/images/product_lounge_chair_1791425543194.jpg"
+      ],
+      "featured": true,
+      "is_active": true,
+      "created_at": "2026-01-12T00:00:00.000Z",
+      "updated_at": "2026-01-12T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "category_id": 3,
+      "name": "Forma Fluted Ceramic Vessel",
+      "slug": "forma-fluted-ceramic-vessel",
+      "description": "Hand-thrown stoneware vessel finished in matte unglazed bone white. Subtle fluted ridges created with artisanal wooden ribs, inspired by wabi-sabi minimalism and modern Nordic ceramics. Watertight interior suitable for fresh or dried botanicals.",
+      "price": 165,
+      "compare_at_price": null,
+      "sku": "AUR-CER-03",
+      "stock_quantity": 35,
+      "image_url": "/src/assets/images/product_ceramic_vase_1791425554927.jpg",
+      "gallery_urls": [
+        "/src/assets/images/product_ceramic_vase_1791425554927.jpg"
+      ],
+      "featured": true,
+      "is_active": true,
+      "created_at": "2026-01-15T00:00:00.000Z",
+      "updated_at": "2026-01-15T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "category_id": 4,
+      "name": "Titanium Horizon Automatic Watch",
+      "slug": "titanium-horizon-watch",
+      "description": "Grade-5 brushed titanium monobloc case measuring 39mm with an ultra-slim 9.8mm profile. Japanese 24-jewel automatic mechanical movement with 42-hour power reserve, double-domed anti-reflective sapphire crystal, and vegetable-tanned Scandinavian bridle leather strap.",
+      "price": 890,
+      "compare_at_price": 950,
+      "sku": "AUR-HOR-04",
+      "stock_quantity": 12,
+      "image_url": "/src/assets/images/product_automatic_watch_1791425566046.jpg",
+      "gallery_urls": [
+        "/src/assets/images/product_automatic_watch_1791425566046.jpg"
+      ],
+      "featured": true,
+      "is_active": true,
+      "created_at": "2026-01-20T00:00:00.000Z",
+      "updated_at": "2026-01-20T00:00:00.000Z"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "user_id": null,
+      "session_id": "guest-1791426148440",
+      "created_at": "2026-10-08T02:22:28.440Z",
+      "updated_at": "2026-10-08T02:22:28.440Z"
+    },
+    {
+      "id": 2,
+      "user_id": null,
+      "session_id": "sess_sa543auwvg_1791429366835",
+      "created_at": "2026-10-08T03:16:06.857Z",
+      "updated_at": "2026-10-08T03:16:06.857Z"
+    },
+    {
+      "id": 3,
+      "user_id": 2,
+      "session_id": "sess_sa543auwvg_1791429366835",
+      "created_at": "2026-10-08T03:16:06.940Z",
+      "updated_at": "2026-10-08T03:16:06.940Z"
+    },
+    {
+      "id": 4,
+      "user_id": null,
+      "session_id": "sess_7c96be60cv_1791429575923",
+      "created_at": "2026-10-08T03:18:17.426Z",
+      "updated_at": "2026-10-08T03:18:17.426Z"
+    },
+    {
+      "id": 5,
+      "user_id": null,
+      "session_id": "sess_36wjtdulqk_1791430816628",
+      "created_at": "2026-10-08T03:40:16.631Z",
+      "updated_at": "2026-10-08T03:40:16.631Z"
+    },
+    {
+      "id": 6,
+      "user_id": null,
+      "session_id": "sess_q7b0lw0m0u_1791433902313",
+      "created_at": "2026-10-08T04:31:42.323Z",
+      "updated_at": "2026-10-08T04:31:42.323Z"
+    },
+    {
+      "id": 7,
+      "user_id": null,
+      "session_id": "sess_pmjvbryrsb_1791433912334",
+      "created_at": "2026-10-08T04:31:52.343Z",
+      "updated_at": "2026-10-08T04:31:52.343Z"
+    },
+    {
+      "id": 8,
+      "user_id": null,
+      "session_id": "sess_bqykeur0ju_1791434016849",
+      "created_at": "2026-10-08T04:33:36.851Z",
+      "updated_at": "2026-10-08T04:33:36.851Z"
+    },
+    {
+      "id": 9,
+      "user_id": null,
+      "session_id": "sess_ilkb0hlxzy_1791434242271",
+      "created_at": "2026-10-08T04:37:22.277Z",
+      "updated_at": "2026-10-08T04:37:22.277Z"
+    }
+  ],
+  "cart_items": [],
+  "orders": [
+    {
+      "id": 4,
+      "order_number": "AUR-143852",
+      "user_id": 2,
+      "customer_name": "Elena Vance",
+      "customer_email": "customer@aura.com",
+      "shipping_address": "44 Kronprinsens Alle",
+      "shipping_city": "Copenhagen",
+      "shipping_postal": "1260",
+      "shipping_phone": "+45 32 45 67 89",
+      "subtotal": 2720,
+      "tax": 217.6,
+      "shipping_fee": 0,
+      "total_amount": 2937.6,
+      "status": "processing",
+      "payment_status": "cod",
+      "created_at": "2026-10-08T04:44:50.090Z",
+      "updated_at": "2026-10-08T04:44:50.090Z"
+    },
+    {
+      "id": 3,
+      "order_number": "AUR-218043",
+      "user_id": 2,
+      "customer_name": "Elena Vance",
+      "customer_email": "customer@aura.com",
+      "shipping_address": "44 Kronprinsens Alle",
+      "shipping_city": "Copenhagen",
+      "shipping_postal": "1260",
+      "shipping_phone": "+45 32 45 67 89",
+      "subtotal": 1650,
+      "tax": 132,
+      "shipping_fee": 0,
+      "total_amount": 1782,
+      "status": "processing",
+      "payment_status": "paid",
+      "created_at": "2026-10-08T03:19:13.798Z",
+      "updated_at": "2026-10-08T03:19:13.798Z"
+    },
+    {
+      "id": 1,
+      "order_number": "AUR-829104",
+      "user_id": 2,
+      "customer_name": "Elena Vance",
+      "customer_email": "customer@aura.com",
+      "shipping_address": "44 Kronprinsens Alle",
+      "shipping_city": "Copenhagen",
+      "shipping_postal": "1260",
+      "shipping_phone": "+45 32 45 67 89",
+      "subtotal": 545,
+      "tax": 43.6,
+      "shipping_fee": 0,
+      "total_amount": 588.6,
+      "status": "delivered",
+      "payment_status": "paid",
+      "created_at": "2026-02-01T10:30:00.000Z",
+      "updated_at": "2026-02-04T14:20:00.000Z"
+    },
+    {
+      "id": 2,
+      "order_number": "AUR-914820",
+      "user_id": 2,
+      "customer_name": "Elena Vance",
+      "customer_email": "customer@aura.com",
+      "shipping_address": "44 Kronprinsens Alle",
+      "shipping_city": "Copenhagen",
+      "shipping_postal": "1260",
+      "shipping_phone": "+45 32 45 67 89",
+      "subtotal": 1450,
+      "tax": 116,
+      "shipping_fee": 0,
+      "total_amount": 1566,
+      "status": "processing",
+      "payment_status": "paid",
+      "created_at": "2026-03-01T08:15:00.000Z",
+      "updated_at": "2026-03-01T09:00:00.000Z"
+    }
+  ],
+  "order_items": [
+    {
+      "id": 1,
+      "order_id": 1,
+      "product_id": 1,
+      "product_name": "Aura Studio Pro Wireless Headphones",
+      "product_price": 380,
+      "product_image": "/src/assets/images/product_audio_headphones_1791425532484.jpg",
+      "quantity": 1,
+      "subtotal": 380
+    },
+    {
+      "id": 2,
+      "order_id": 1,
+      "product_id": 3,
+      "product_name": "Forma Fluted Ceramic Vessel",
+      "product_price": 165,
+      "product_image": "/src/assets/images/product_ceramic_vase_1791425554927.jpg",
+      "quantity": 1,
+      "subtotal": 165
+    },
+    {
+      "id": 3,
+      "order_id": 2,
+      "product_id": 2,
+      "product_name": "Koto Boucle Sculptural Lounge Chair",
+      "product_price": 1450,
+      "product_image": "/src/assets/images/product_lounge_chair_1791425543194.jpg",
+      "quantity": 1,
+      "subtotal": 1450
+    },
+    {
+      "id": 4,
+      "order_id": 3,
+      "product_id": 4,
+      "product_name": "Titanium Horizon Automatic Watch",
+      "product_price": 890,
+      "product_image": "/src/assets/images/product_automatic_watch_1791425566046.jpg",
+      "quantity": 1,
+      "subtotal": 890
+    },
+    {
+      "id": 5,
+      "order_id": 3,
+      "product_id": 1,
+      "product_name": "Aura Studio Pro Wireless Headphones",
+      "product_price": 380,
+      "product_image": "/src/assets/images/product_audio_headphones_1791425532484.jpg",
+      "quantity": 2,
+      "subtotal": 760
+    },
+    {
+      "id": 6,
+      "order_id": 4,
+      "product_id": 4,
+      "product_name": "Titanium Horizon Automatic Watch",
+      "product_price": 890,
+      "product_image": "/src/assets/images/product_automatic_watch_1791425566046.jpg",
+      "quantity": 1,
+      "subtotal": 890
+    },
+    {
+      "id": 7,
+      "order_id": 4,
+      "product_id": 2,
+      "product_name": "Koto Boucle Sculptural Lounge Chair",
+      "product_price": 1450,
+      "product_image": "/src/assets/images/product_lounge_chair_1791425543194.jpg",
+      "quantity": 1,
+      "subtotal": 1450
+    },
+    {
+      "id": 8,
+      "order_id": 4,
+      "product_id": 1,
+      "product_name": "Aura Studio Pro Wireless Headphones",
+      "product_price": 380,
+      "product_image": "/src/assets/images/product_audio_headphones_1791425532484.jpg",
+      "quantity": 1,
+      "subtotal": 380
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "order_id": 1,
+      "payment_method": "card",
+      "amount": 588.6,
+      "status": "completed",
+      "transaction_reference": "ch_aura_92817293",
+      "created_at": "2026-02-01T10:31:00.000Z"
+    },
+    {
+      "id": 2,
+      "order_id": 2,
+      "payment_method": "card",
+      "amount": 1566,
+      "status": "completed",
+      "transaction_reference": "ch_aura_48102941",
+      "created_at": "2026-03-01T08:16:00.000Z"
+    },
+    {
+      "id": 3,
+      "order_id": 3,
+      "payment_method": "card",
+      "amount": 1782,
+      "status": "completed",
+      "transaction_reference": "ch_aura_1791429553798",
+      "created_at": "2026-10-08T03:19:13.798Z"
+    },
+    {
+      "id": 4,
+      "order_id": 4,
+      "payment_method": "cod",
+      "amount": 2937.6,
+      "status": "pending",
+      "transaction_reference": "ch_aura_1791434690091",
+      "created_at": "2026-10-08T04:44:50.090Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "user_id": 2,
+      "user_name": "Elena Vance",
+      "rating": 5,
+      "comment": "The soundstage on these headphones is astounding. Natural acoustics with zero ear fatigue during long mastering sessions. Build quality is peerless.",
+      "created_at": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "user_id": 2,
+      "user_name": "Elena Vance",
+      "rating": 5,
+      "comment": "Centerpiece of our living room. The boucle fabric is tactile, firm, and wonderfully crafted. Worth every penny.",
+      "created_at": "2026-02-05T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "product_id": 3,
+      "user_id": 2,
+      "user_name": "Elena Vance",
+      "rating": 4,
+      "comment": "Stunning texture and weight. Looks exceptional with dried eucalyptus branches on raw concrete.",
+      "created_at": "2026-02-12T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "product_id": 4,
+      "user_id": 2,
+      "user_name": "Elena Vance",
+      "rating": 5,
+      "comment": "The brushed titanium finish catches the morning light delicately. Keeps flawless time. Very comfortable on the wrist.",
+      "created_at": "2026-02-18T00:00:00.000Z"
+    }
+  ],
+  "wishlist": []
+}
